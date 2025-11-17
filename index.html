@@ -13,6 +13,7 @@
 <script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Animal Shelter Data">
 <meta name="description" content="Contains data set from animal shelter in Long Beach.">
 <meta property="og:description" content="Contains data set from animal shelter in Long Beach.">
+<meta property="og:image" content="https://emilhvitfeldt.github.io/animalshelter/logo.png">
 </head>
 <body>
     <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
@@ -46,8 +47,11 @@
 </nav><div class="container template-home">
 <div class="row">
   <main id="main" class="col-md-9"><div class="section level1">
-<div class="page-header"><h1 id="animalshelter">animalshelter<a class="anchor" aria-label="anchor" href="#animalshelter"></a>
-</h1></div>
+<div class="page-header">
+<img src="logo.png" class="logo" alt=""><h1 id="animalshelter-">animalshelter 
+<a class="anchor" aria-label="anchor" href="#animalshelter-"></a>
+</h1>
+</div>
 <!-- badges: start -->
 <!-- badges: end -->
 <p>The goal of animalshelter is to provide a data set for <a href="https://data.longbeach.gov/explore/dataset/animal-shelter-intakes-and-outcomes" class="external-link">Long Beach Animal Shelter</a>.</p>
@@ -65,16 +69,14 @@
 <p>This package contains one data set <code>longbeach</code>,</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org" class="external-link">tidyverse</a></span><span class="op">)</span></span>
-<span><span class="co">#&gt; ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──</span></span>
-<span><span class="co">#&gt; ✔ dplyr     1.1.4     ✔ readr     2.1.5</span></span>
-<span><span class="co">#&gt; ✔ forcats   1.0.0     ✔ stringr   1.5.1</span></span>
-<span><span class="co">#&gt; ✔ ggplot2   3.5.1     ✔ tibble    3.2.1</span></span>
-<span><span class="co">#&gt; ✔ lubridate 1.9.4     ✔ tidyr     1.3.1</span></span>
-<span><span class="co">#&gt; ✔ purrr     1.0.2     </span></span>
+<span><span class="co">#&gt; ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──</span></span>
+<span><span class="co">#&gt; ✔ ggplot2 4.0.0     ✔ purrr   1.2.0</span></span>
+<span><span class="co">#&gt; ✔ tibble  3.3.0     ✔ dplyr   1.1.4</span></span>
+<span><span class="co">#&gt; ✔ tidyr   1.3.1     ✔ stringr 1.6.0</span></span>
+<span><span class="co">#&gt; ✔ readr   2.1.5     ✔ forcats 1.0.1</span></span>
 <span><span class="co">#&gt; ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──</span></span>
 <span><span class="co">#&gt; ✖ dplyr::filter() masks stats::filter()</span></span>
 <span><span class="co">#&gt; ✖ dplyr::lag()    masks stats::lag()</span></span>
-<span><span class="co">#&gt; ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/EmilHvitfeldt/animalshelter" class="external-link">animalshelter</a></span><span class="op">)</span></span>
 <span></span>
 <span><span class="va">longbeach</span></span>
@@ -187,7 +189,7 @@
 <div class="developers">
 <h2 data-toc-skip>Developers</h2>
 <ul class="list-unstyled">
-<li>Emil Hvitfeldt <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/0000-0002-0679-1945" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Emil Hvitfeldt <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/0000-0002-0679-1945" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
 </ul>
 </div>
 
@@ -202,7 +204,7 @@
 </div>
 
 <div class="pkgdown-footer-right">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.1.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.2.0.</p>
 </div>
 
     </footer>
