@@ -1,9 +1,10 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# animalshelter
+# animalshelter <a href="https://emilhvitfeldt.github.io/animalshelter/"><img src="man/figures/logo.png" align="right" height="139" alt="animalshelter website" /></a>
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
 The goal of animalshelter is to provide a data set for [Long Beach
@@ -25,16 +26,14 @@ This package contains one data set `longbeach`,
 
 ``` r
 library(tidyverse)
-#> ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-#> ✔ dplyr     1.1.4     ✔ readr     2.1.5
-#> ✔ forcats   1.0.0     ✔ stringr   1.5.1
-#> ✔ ggplot2   3.5.1     ✔ tibble    3.2.1
-#> ✔ lubridate 1.9.4     ✔ tidyr     1.3.1
-#> ✔ purrr     1.0.2     
+#> ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──
+#> ✔ ggplot2 4.0.0     ✔ purrr   1.2.0
+#> ✔ tibble  3.3.0     ✔ dplyr   1.1.4
+#> ✔ tidyr   1.3.1     ✔ stringr 1.6.0
+#> ✔ readr   2.1.5     ✔ forcats 1.0.1
 #> ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
 #> ✖ dplyr::filter() masks stats::filter()
 #> ✖ dplyr::lag()    masks stats::lag()
-#> ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
 library(animalshelter)
 
 longbeach
